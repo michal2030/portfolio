@@ -1,0 +1,410 @@
+/*CZCIONKI*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500');
+
+
+body
+{
+	margin:0;
+	background-color:#151d1f;
+}
+
+.about_me
+{
+	width:100%;
+	height:99.8vh;
+	background-size:cover;
+	background-image:URL(bg-about_me.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom:0.5px solid #fff;
+	
+}
+
+.about_center
+{
+	width:65%;
+	height:30vh;
+	padding-top:365px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Dosis', sans-serif;
+	color:#fff;
+}
+
+#span1
+{
+	font-size:36px;
+	font-weight:400;
+}
+
+#span2
+{
+	width:500px;
+	margin-top:300px;
+}
+
+#p1
+{
+	font-size:60px;
+	font-weight:500;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.skills
+{
+	height:80vh;
+	width:100%;
+	background-size:cover;
+	background-image:URL(person_bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom:0.5px solid #fff;
+	
+}
+
+
+
+button
+{
+	color: #fff;
+    background: #F65857;
+    font: 700 16px "Dosis", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+	outline:none;
+	border-color:transparent;
+	width:170px;
+}
+
+
+button:hover
+{
+	color: #F65857;
+    background-color: #fff;
+	cursor:pointer;
+}
+
+.info_me
+{
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	font:19px "dosis", sans-serif;
+	letter-spacing:1px;
+	display:flex;
+	color:#fff;
+
+}
+
+.info_v1
+{
+	width:50%;
+	padding-top:100px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+.social
+{
+	text-align:center;
+	margin-top:110px;
+	color:#fff;
+}
+
+.fa:hover
+{
+	color:#F65857;
+	cursor:pointer;
+}
+
+.technology
+{
+	width:100%;
+	height:85vh;
+	background-color:#090c11;	
+	color:#fff;
+	margin-top:-38px;
+	border-bottom:0.5px solid #fff;
+}
+
+.tech
+{
+	width:340px;
+	height:360px;
+	margin:50px;
+	
+}
+
+.center_tech_name
+{
+	text-align:center;
+	width:100%;
+}
+
+
+
+
+.tech_center
+{
+	text-align:center;
+	display:flex;
+	width:100%;
+	justify-content:center;
+	font:19px "dosis", sans-serif;
+}
+
+.projects
+{
+	width:100%;
+	height:50vh;
+	background-size:cover;
+	background-image:URL(projekty.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom:0.5px solid #000;
+	display:flex;
+	justify-content:center;
+}
+
+.pro
+{
+	width:330px;
+	height:330px;
+	margin-top:70px;
+	background-image:url(todo.png);
+	background-size:cover;
+	line-height:300px;
+	border:solid #fff 3px;
+}
+
+
+.contact
+{
+	width:100%;
+	height:50vh;
+	background-color:#fff;
+}
+
+.contact_center
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	display:flex;
+}
+
+.battery
+{
+	width:33%;
+	height:35vh;
+	text-align:left;
+	font-family:"dosis", sans-serif;
+	font-size:25px;
+	margin-top:130px;
+}
+
+.contact_menu
+{
+	width:33%;
+	height:45vh;
+	text-align:center;
+	margin-top:40px;
+}
+
+
+
+input[type=text], select {
+    width: 510px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font:18px "dosis", sans-serif;
+}
+
+.download
+{
+	width:33%;
+	margin-top:190px;
+	height:10vh;
+	font:25px "dosis", sans-serif;
+	text-align:center;
+}
+
+footer
+{
+	background-color:#090c11;
+	height:74px;
+	color:#fff;
+	text-align:center;
+	font:22px "dosis", sans-serif;
+	line-height:80px;
+}
+
+hr{float:left;}
+h1{font-size:60px; margin-bottom:50px; font-family: "dosis", sans-serif;}
+
+
+
+/* Urządzenia mobilne */
+
+@media screen and (max-width: 1400px) {
+
+	#span1
+	{
+		font-size:130px;
+	}
+	
+	.about_center
+	{
+		padding-top:500px;
+	}
+	
+	.about_center
+	{
+		width:100%;
+		text-align:center;
+	}
+	
+	button
+	{
+		width:560px;
+		height:110px;
+		font-size:38px;
+		margin-top:140px;
+	}
+	
+	.tech_center
+	{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	.tech
+	{
+		width:50%;
+		padding-top:280px;
+		font-size:35px;
+		
+	}
+	
+	.technology
+	{
+		align-items:center;
+		height:3600px;
+	}
+	
+	.info_v1
+	{
+		font-size:40px;
+		width:90%;
+	}
+	
+	.skills
+	{
+		height:1570px;
+	}
+	
+	.contact_center
+	{
+		flex-direction:column;
+		align-items:center;
+		font-size:40px;
+		
+	}
+	
+	.contact_menu
+	{
+		margin-top:10px;
+		font-size:48px;
+		width:100%;
+	}
+	
+	.battery
+	{
+		font-size:50px;
+		width:100%;
+		height:500px;
+		margin-top:100px;
+		text-align:center;
+	}
+	
+	.contact
+	{
+		height:2200px;
+	}
+	
+	.download
+	{
+		width:100%;
+		margin-top:100px;
+		font-size:48px;
+	}
+	
+	input[type=text], select
+	{
+	
+		width:92%;
+		height:110px;
+		font-size:40px;
+	}
+	
+	textarea
+	{
+		width:92%;
+		font-size:40px;
+		height:300px;
+	}
+
+	.pro
+	{
+		width:500px;
+		height:500px;
+		margin-top:180px;
+	}
+	
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
